@@ -1,0 +1,47 @@
+.background-image{
+    position: static;
+    max-height: 100vh;
+    max-width: 100vh;
+    margin-left: -15px;
+}
+
+.space{
+    position: relative;
+    height: 35vh;
+}
+
+.small-space{
+    position: relative;
+    height: 10vh;
+}
+
+.center-text{
+    font-family: 'Hind', sans-serif;
+    /*color: #838383;*/
+
+    position: relative;
+    text-align: center;
+    margin-left: 100px;
+    /*line-height: 90px;*/
+    font-size: 60px;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 10vh;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: lightsteelblue;
+    color: white;
+}

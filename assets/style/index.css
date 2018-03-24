@@ -1,0 +1,20 @@
+.header{
+    font-family: 'Hind', sans-serif;
+    font-size: 100px;
+    z-index: 1;
+}
+
+.background-image{
+    object-fit: cover;
+    background-size: cover;
+    display: block;
+}
+
+.back{
+    position: fixed;
+    height:5vh;
+    margin-top: 20px;
+    margin-left: 10px;
+    z-index: 1;
+}
+
